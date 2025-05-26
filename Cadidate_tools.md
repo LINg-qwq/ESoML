@@ -1,0 +1,26 @@
+| Tool Name             | Link or Reference                                            | Selected           | Reason for Selected/Exclude                                  |
+| --------------------- | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
+| Clang Static Analyzer | https://clang-analyzer.llvm.org/                             | :x:                | Need infomation from compilation                             |
+| CodeQL                | https://codeql.github.com/                                   | :x:                | A plugin at VS Code platform and cannot operate in command line |
+| Coverity              | https://scan.coverity.com/                                   | :x:                | Proprietary                                                  |
+| CPAChecker            | https://github.com/sosy-lab/cpachecker                       | :x:                | Only support C and not C++                                   |
+| Cppcheck              | https://cppcheck.sourceforge.io/                             | :white_check_mark: | Meet all our criteria                                        |
+| Facebook Infer        | https://fbinfer.com/                                         | :x:                | Need infomation from compilation                             |
+| Flawfinder            | https://dwheeler.com/flawfinder/                             | :white_check_mark: | Meet all our criteria                                        |
+| Klocwork              | https://www.perforce.com/products/klocwork                   | :x:                | Proprietary                                                  |
+| Parasoft              | https://www.parasoft.com/                                    | :x:                | Proprietary                                                  |
+| Polyspace             | https://www.mathworks.com/products/polyspace.html            | :x:                | Proprietary                                                  |
+| SonarQube             | https://www.sonarsource.com/products/sonarqube/              | :x:                | Proprietary                                                  |
+| Splint                | https://splint.org/                                          | :x:                | Only support C and not C++                                   |
+| SMOKE                 | Fan, Gang, et al. "Smoke: scalable path-sensitive memory leak detection for millions of lines of code." *2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)*. IEEE, 2019. | :x:                | Need infomation from compilation                             |
+| AddressSanitizer      | https://github.com/google/sanitizers/wiki/addresssanitizer   | :x:                | Depend on runtime execution                                  |
+| Valgrind              | https://valgrind.org/                                        | :x:                | Depend on runtime execution                                  |
+| Tscancode             | https://github.com/Tencent/TscanCode                         | :white_check_mark: | Meet all our criteria                                        |
+| Dr. Memory            | https://drmemory.org/                                        | :x:                | Depend on runtime execution                                  |
+| PCA                   | Li, Wen, et al. "PCA: memory leak detection using partial call-path analysis." *Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering*. 2020. | :x:                | Need infomation from compilation                             |
+| SVF                   | Sui, Yulei, and Jingling Xue. "SVF: interprocedural static value-flow analysis in LLVM." *Proceedings of the 25th international conference on compiler construction*. 2016. | :x:                | Need infomation from compilation                             |
+| PinPoint              | Shi, Qingkai, et al. "Pinpoint: Fast and precise sparse value flow analysis for million lines of code." *Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation*. 2018. | :x:                | Proprietary. Need infomation from compilation                |
+| Sparrow               | Jung, Yungbum, and Kwangkeun Yi. "Practical memory leak detector based on parameterized procedural summaries." *Proceedings of the 7th international symposium on Memory management*. 2008. | :x:                | Only support C and not C++                                   |
+| Fastcheck             | Cherem, Sigmund, Lonnie Princehouse, and Radu Rugina. "Practical memory leak detection using guarded value-flow analysis." *Proceedings of the 28th ACM SIGPLAN Conference on Programming Language Design and Implementation*. 2007. | :x:                | Only support C and not C++                                   |
+| PML Checker           | Sun, Xiaohui, et al. "A projection-based approach for memory leak detection." *2018 IEEE 42nd Annual Computer Software and Applications Conference (COMPSAC)*. Vol. 2. IEEE, 2018. | :x:                | Only support C and not C++                                   |
+
